@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.background,
     display: "flex",
     flexDirection: "row",
+    padding: 12,
   },
   item: {
     flexGrow: 1,
