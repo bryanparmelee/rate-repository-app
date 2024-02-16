@@ -41,6 +41,8 @@ const RepositoryItem = ({ props }) => {
       gap: 12,
     },
     infoDetails: {
+      flex: 1,
+      flexWrap: "wrap",
       display: "flex",
       gap: 4,
       padding: 8,

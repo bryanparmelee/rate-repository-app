@@ -11,17 +11,19 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.background,
     display: "flex",
     flexDirection: "row",
+    justifyContent: "space-evenly",
     padding: 12,
   },
   item: {
-    flexGrow: 1,
+    padding: 8,
   },
 });
 
 const AppBar = () => {
   return (
     <View style={styles.container}>
-      <AppBarTab styles={styles.item} text="Repositories" />
+      <AppBarTab styles={styles.item} text="Repositories" path="/" />
+      <AppBarTab styles={styles.item} text="Sign In" path="sign-in" />
     </View>
   );
 };
