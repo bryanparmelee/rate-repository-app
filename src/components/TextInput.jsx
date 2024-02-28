@@ -9,8 +9,11 @@ const styles = StyleSheet.create({
     padding: 4,
   },
   errorText: {
-    marginTop: 5,
-    color: "red",
+    marginTop: 1,
+    height: 30,
+    borderColor: "#d73a4a",
+    borderWidth: 1,
+    padding: 4,
   },
 });
 
